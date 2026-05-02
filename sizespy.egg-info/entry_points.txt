@@ -1,0 +1,2 @@
+[console_scripts]
+sizespy = sizespy.cli:run

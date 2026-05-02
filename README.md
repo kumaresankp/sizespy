@@ -1,0 +1,205 @@
+# 🕵️ sizespy
+
+**sizespy** is a powerful Python CLI tool to inspect folders, discover disk usage, find large files, and analyze storage directly from your terminal.
+
+Perfect for developers, power users, and anyone wondering:
+
+> "What is eating my disk space?"
+
+---
+
+## 🚀 Features
+
+✅ Scan folder sizes instantly  
+✅ Show largest files  
+✅ Tree view with folder sizes  
+✅ Sort by biggest items  
+✅ Export report to CSV  
+✅ Safe file delete option  
+✅ Clean terminal output  
+✅ Cross-platform (Windows / Linux / macOS)
+
+---
+
+## 📦 Installation
+
+```bash
+pip install sizespy
+```
+
+---
+
+## ⚡ Basic Usage
+
+Scan current folder:
+
+```bash
+sizespy
+```
+
+Scan specific folder:
+
+```bash
+sizespy "C:\Users\KUMAR\Downloads"
+```
+
+Linux/macOS:
+
+```bash
+sizespy /home/user/Downloads
+```
+
+---
+
+## 📊 Examples
+
+## Show Top 10 Largest Items
+
+```bash
+sizespy . --top 10
+```
+
+---
+
+## 📁 Tree View
+
+```bash
+sizespy . --tree
+```
+
+Custom depth:
+
+```bash
+sizespy . --tree --depth 3
+```
+
+---
+
+## 🔥 Largest Files
+
+Show top 10 largest files:
+
+```bash
+sizespy . --largest 10
+```
+
+---
+
+## 🔄 Smallest First
+
+```bash
+sizespy . --reverse
+```
+
+---
+
+## 📄 Export CSV Report
+
+```bash
+sizespy . --export
+```
+
+Output:
+
+```bash
+sizespy_report.csv
+```
+
+---
+
+## 🗑 Safe Delete File
+
+```bash
+sizespy --delete largefile.zip
+```
+
+(asks confirmation before deleting)
+
+---
+
+## 💻 Example Output
+
+```text
+📊 SIZE REPORT
+--------------------------------------------------
+📁     5.42 GB | Videos
+📁     2.18 GB | Downloads
+📄   850.32 MB | movie.mkv
+📄   120.45 MB | project.zip
+--------------------------------------------------
+Items: 4
+```
+
+---
+
+## 🛠 Options
+
+| Command | Description |
+|--------|-------------|
+| `sizespy` | Scan current folder |
+| `sizespy path` | Scan specific path |
+| `--top N` | Show top N items |
+| `--reverse` | Smallest first |
+| `--tree` | Tree view |
+| `--depth N` | Tree depth |
+| `--largest N` | Largest files |
+| `--export` | Export CSV |
+| `--delete file` | Delete file safely |
+
+---
+
+## 🌍 Supported Platforms
+
+✅ Windows  
+✅ Linux  
+✅ macOS
+
+---
+
+## 📌 Why sizespy?
+
+Most disk tools are heavy GUI apps.
+
+**sizespy** is:
+
+- Fast ⚡  
+- Lightweight 🪶  
+- Developer friendly 💻  
+- Terminal based 🖥  
+- Scriptable 🔥
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.
+
+Ideas for future versions:
+
+- Duplicate file finder  
+- Color themes  
+- Interactive mode  
+- Progress bar scanner  
+- Auto cleanup mode
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+⭐ Star the GitHub repo  
+⭐ Share with developers  
+⭐ Follow future updates
+
+---
+
+## 🕵️ sizespy
+
+**Spy on your storage. Find the truth.**

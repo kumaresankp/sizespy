@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+sizespy/__init__.py
+sizespy/cli.py
+sizespy.egg-info/PKG-INFO
+sizespy.egg-info/SOURCES.txt
+sizespy.egg-info/dependency_links.txt
+sizespy.egg-info/entry_points.txt
+sizespy.egg-info/requires.txt
+sizespy.egg-info/top_level.txt
